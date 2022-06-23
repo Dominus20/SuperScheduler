@@ -17,7 +17,7 @@ public class Configuration {
     public void setUp() throws MalformedURLException {
 
         DesiredCapabilities capabilities = new DesiredCapabilities();
-        capabilities.setCapability("deviceName", "Simulator_1");
+        capabilities.setCapability("deviceName", "Simulator_2");
         capabilities.setCapability("platformName","Android");
         capabilities.setCapability("platformVersion","8.0");
         capabilities.setCapability("appPackage","com.example.svetlana.scheduler");
