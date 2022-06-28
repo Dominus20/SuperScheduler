@@ -1,39 +1,35 @@
 package tests;
-
 import manager.Configuration;
-import org.testng.Assert;
-import org.testng.annotations.AfterMethod;
+import models.User;
 import org.testng.annotations.Test;
-import screens.HomeScreen;
+
 import screens.LoginScreen;
 
 public class LoginTests extends Configuration {
 
     @Test
     public void loginSuccess(){
-       boolean isPlusPresent = new LoginScreen(driver)
+        new LoginScreen(driver)
                 .fillEmail("taiki@gmail.com")
                 .fillPassword("Tt12345$")
                 .clickLoginButton()
-                .isPlusButtonPresent();
-
-        Assert.assertTrue(isPlusPresent);
+                .isPlusButtonPresentAssert()
+                .openMenu()
+                .logout();
     }
+
 
     @Test
     public void loginSuccessSecond(){
-        boolean isPlusPresent =  new LoginScreen(driver)
-                .fillEmail("taiki@gmail.com")
-                .fillPassword("Tt12345$")
-                .clickLoginButton()
-                .isPlusButtonPresent();
+        User user = User.builder().email("noa@gmail.com").passwod("Nnoa12345$").build();
 
-        Assert.assertTrue(isPlusPresent);
-    }
-
-    @AfterMethod
-    public void postCondition(){
-        new HomeScreen(driver).openMenu()
+        new LoginScreen(driver)
+                .complexLogin(user)
+                .isPlusButtonPresentAssert()
+                .openMenu()
                 .logout();
+
     }
+
+
 }
