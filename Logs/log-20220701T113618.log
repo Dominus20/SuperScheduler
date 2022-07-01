@@ -1,0 +1,347 @@
+11:36:18.588  DEBUG org.testng.internal.Graph - [Graph] ADDING NODE Configuration.setUp()[pri:0, instance:null] -1380824345
+11:36:18.592  DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+11:36:18.595  DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+11:36:18.595  DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+11:36:18.595  DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+11:36:18.595  DEBUG org.testng.internal.Graph - [Graph] ADDING NODE Configuration.tearDown()[pri:0, instance:null] 939304592
+11:36:18.595  DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+11:36:18.596  DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+11:36:18.596  DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+11:36:18.596  DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+11:36:18.602  DEBUG org.testng.internal.Graph - [Graph] ADDING NODE Configuration.setUp()[pri:0, instance:tests.LoginTests@20d04db2] 694640555
+11:36:18.602  DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+11:36:18.603  DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+11:36:18.603  DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+11:36:18.603  DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+11:36:18.604  DEBUG org.testng.internal.Graph - [Graph] ADDING NODE LoginTests.loginSuccess()[pri:0, instance:tests.LoginTests@20d04db2] 1449557812
+11:36:18.605  DEBUG org.testng.internal.Graph - [Graph] ADDING NODE LoginTests.loginSuccessSecond()[pri:0, instance:tests.LoginTests@20d04db2] -976149592
+11:36:18.605  DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+11:36:18.606  DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+11:36:18.606  DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+11:36:18.606  DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+11:36:18.608  DEBUG org.testng.internal.Graph - [Graph] ADDING NODE Configuration.tearDown()[pri:0, instance:tests.LoginTests@20d04db2] -395806430
+11:36:18.608  DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+11:36:18.608  DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+11:36:18.608  DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+11:36:18.608  DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+11:36:18.629  INFO  manager.Configuration - Device name --> 'Simulator_2'; Platform --> 'Android'; Version --> '8.0'
+11:36:27.306  DEBUG o.s.c.a.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@5328d4e0
+11:36:27.329  DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+11:36:27.490  DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+11:36:27.492  DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+11:36:27.494  DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+11:36:27.495  DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+11:36:27.498  DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+11:36:27.551  DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'defaultBeanConfiguration'
+11:36:27.599  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public java.lang.Object io.appium.java_client.events.DefaultAspect.doAround(org.aspectj.lang.ProceedingJoinPoint) throws java.lang.Throwable
+11:36:27.601  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.beforeAlertAccept(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.602  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.beforeAlertDismiss(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.602  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.beforeAlertSendKeys(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.603  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.beforeChangeValueOf(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.603  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.beforeClickOn(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.604  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.beforeFindBy(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.604  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.beforeMaximization(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.604  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.beforeNavigateBack(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.605  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.beforeNavigateForward(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.605  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.beforeNavigateRefresh(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.606  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.beforeNavigateTo(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.606  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.beforeRotation(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.607  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.beforeScript(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.607  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.beforeSwitchToWindow(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.607  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.beforeSwitchingToContext(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.608  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.beforeTakeScreenShot(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.608  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.beforeWindowIsMoved(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.609  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.beforeWindowIsResized(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.609  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.afterAlertAccept(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.610  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.afterAlertDismiss(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.610  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.afterAlertSendKeys(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.610  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.afterChangeValueOf(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.611  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.afterClickOn(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.611  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.afterFindBy(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.611  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.afterMaximization(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.612  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.afterNavigateBack(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.612  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.afterNavigateForward(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.612  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.afterNavigateRefresh(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.613  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.afterNavigateTo(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.613  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.afterRotation(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.613  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.afterScript(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.613  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.afterSwitchToWindow(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.614  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.afterSwitchingToContextn(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.614  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.afterWindowIsMoved(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.614  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.afterWindowIsResized(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.615  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.afterTakeScreenShot(org.aspectj.lang.JoinPoint,java.lang.Object) throws java.lang.Throwable
+11:36:27.636  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public java.lang.Object io.appium.java_client.events.DefaultAspect.doAround(org.aspectj.lang.ProceedingJoinPoint) throws java.lang.Throwable
+11:36:27.637  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.beforeAlertAccept(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.637  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.beforeAlertDismiss(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.637  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.beforeAlertSendKeys(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.638  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.beforeChangeValueOf(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.638  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.beforeClickOn(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.638  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.beforeFindBy(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.639  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.beforeMaximization(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.639  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.beforeNavigateBack(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.639  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.beforeNavigateForward(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.640  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.beforeNavigateRefresh(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.640  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.beforeNavigateTo(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.640  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.beforeRotation(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.641  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.beforeScript(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.641  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.beforeSwitchToWindow(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.641  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.beforeSwitchingToContext(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.642  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.beforeTakeScreenShot(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.642  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.beforeWindowIsMoved(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.642  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.beforeWindowIsResized(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.643  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.afterAlertAccept(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.643  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.afterAlertDismiss(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.643  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.afterAlertSendKeys(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.643  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.afterChangeValueOf(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.644  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.afterClickOn(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.644  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.afterFindBy(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.645  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.afterMaximization(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.645  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.afterNavigateBack(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.645  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.afterNavigateForward(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.645  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.afterNavigateRefresh(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.646  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.afterNavigateTo(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.646  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.afterRotation(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.647  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.afterScript(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.647  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.afterSwitchToWindow(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.647  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.afterSwitchingToContextn(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.648  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.afterWindowIsMoved(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.648  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.afterWindowIsResized(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.648  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.afterTakeScreenShot(org.aspectj.lang.JoinPoint,java.lang.Object) throws java.lang.Throwable
+11:36:27.660  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public java.lang.Object io.appium.java_client.events.DefaultAspect.doAround(org.aspectj.lang.ProceedingJoinPoint) throws java.lang.Throwable
+11:36:27.660  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.beforeAlertAccept(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.661  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.beforeAlertDismiss(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.661  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.beforeAlertSendKeys(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.661  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.beforeChangeValueOf(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.662  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.beforeClickOn(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.662  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.beforeFindBy(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.662  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.beforeMaximization(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.662  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.beforeNavigateBack(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.663  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.beforeNavigateForward(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.663  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.beforeNavigateRefresh(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.663  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.beforeNavigateTo(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.664  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.beforeRotation(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.664  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.beforeScript(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.664  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.beforeSwitchToWindow(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.664  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.beforeSwitchingToContext(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.666  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.beforeTakeScreenShot(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.666  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.beforeWindowIsMoved(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.667  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.beforeWindowIsResized(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.668  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.afterAlertAccept(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.669  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.afterAlertDismiss(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.669  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.afterAlertSendKeys(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.670  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.afterChangeValueOf(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.670  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.afterClickOn(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.671  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.afterFindBy(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.671  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.afterMaximization(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.672  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.afterNavigateBack(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.672  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.afterNavigateForward(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.672  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.afterNavigateRefresh(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.673  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.afterNavigateTo(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.673  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.afterRotation(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.673  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.afterScript(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.674  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.afterSwitchToWindow(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.674  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.afterSwitchingToContextn(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.674  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.afterWindowIsMoved(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.675  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.afterWindowIsResized(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.675  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.afterTakeScreenShot(org.aspectj.lang.JoinPoint,java.lang.Object) throws java.lang.Throwable
+11:36:27.855  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public java.lang.Object io.appium.java_client.events.DefaultAspect.doAround(org.aspectj.lang.ProceedingJoinPoint) throws java.lang.Throwable
+11:36:27.855  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.beforeAlertAccept(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.855  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.beforeAlertDismiss(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.856  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.beforeAlertSendKeys(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.856  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.beforeChangeValueOf(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.856  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.beforeClickOn(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.856  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.beforeFindBy(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.857  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.beforeMaximization(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.857  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.beforeNavigateBack(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.857  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.beforeNavigateForward(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.857  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.beforeNavigateRefresh(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.858  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.beforeNavigateTo(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.858  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.beforeRotation(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.858  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.beforeScript(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.858  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.beforeSwitchToWindow(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.859  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.beforeSwitchingToContext(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.859  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.beforeTakeScreenShot(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.859  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.beforeWindowIsMoved(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.859  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.beforeWindowIsResized(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.860  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.afterAlertAccept(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.860  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.afterAlertDismiss(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.860  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.afterAlertSendKeys(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.860  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.afterChangeValueOf(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.861  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.afterClickOn(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.861  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.afterFindBy(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.861  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.afterMaximization(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.861  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.afterNavigateBack(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.861  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.afterNavigateForward(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.862  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.afterNavigateRefresh(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.862  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.afterNavigateTo(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.862  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.afterRotation(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.862  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.afterScript(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.862  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.afterSwitchToWindow(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.863  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.afterSwitchingToContextn(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.863  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.afterWindowIsMoved(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.863  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.afterWindowIsResized(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.864  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.afterTakeScreenShot(org.aspectj.lang.JoinPoint,java.lang.Object) throws java.lang.Throwable
+11:36:27.873  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public java.lang.Object io.appium.java_client.events.DefaultAspect.doAround(org.aspectj.lang.ProceedingJoinPoint) throws java.lang.Throwable
+11:36:27.874  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.beforeAlertAccept(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.874  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.beforeAlertDismiss(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.874  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.beforeAlertSendKeys(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.874  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.beforeChangeValueOf(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.875  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.beforeClickOn(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.875  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.beforeFindBy(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.875  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.beforeMaximization(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.875  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.beforeNavigateBack(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.876  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.beforeNavigateForward(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.876  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.beforeNavigateRefresh(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.876  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.beforeNavigateTo(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.877  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.beforeRotation(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.877  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.beforeScript(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.877  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.beforeSwitchToWindow(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.877  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.beforeSwitchingToContext(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.877  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.beforeTakeScreenShot(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.878  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.beforeWindowIsMoved(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.879  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.beforeWindowIsResized(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.879  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.afterAlertAccept(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.879  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.afterAlertDismiss(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.880  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.afterAlertSendKeys(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.880  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.afterChangeValueOf(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.880  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.afterClickOn(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.881  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.afterFindBy(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.881  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.afterMaximization(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.881  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.afterNavigateBack(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.881  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.afterNavigateForward(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.882  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.afterNavigateRefresh(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.882  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.afterNavigateTo(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.882  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.afterRotation(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.883  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.afterScript(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.883  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.afterSwitchToWindow(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.883  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.afterSwitchingToContextn(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.884  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.afterWindowIsMoved(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.884  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.afterWindowIsResized(org.aspectj.lang.JoinPoint) throws java.lang.Throwable
+11:36:27.884  DEBUG o.s.a.a.a.ReflectiveAspectJAdvisorFactory - Found AspectJ method: public void io.appium.java_client.events.DefaultAspect.afterTakeScreenShot(org.aspectj.lang.JoinPoint,java.lang.Object) throws java.lang.Throwable
+11:36:28.301  INFO  manager.Configuration - Test start with user---> User(email=noa@gmail.com, passwod=Nnoa12345$)
+11:36:28.546  INFO  manager.MyListener - Before find by --> By.xpath: //*[resource-id='com.example.svetlana.scheduler:id/log_email_input']
+11:36:28.821  INFO  manager.MyListener - We have a problem -->An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'KDFX-PC', ip: '172.16.0.178', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: Appium, databaseEnabled: false, desired: {appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: Appium, deviceName: Simulator_2, platformName: android, platformVersion: 8.0}, deviceApiLevel: 26, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 560, deviceScreenSize: 1440x2560, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3.5, platform: LINUX, platformName: Android, platformVersion: 8.0.0, statBarHeight: 84, takesScreenshot: true, viewportRect: {height: 2308, left: 0, top: 84, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: d1eca100-1b20-4257-addc-eba9df50125a
+*** Element info: {Using=xpath, value=//*[resource-id='com.example.svetlana.scheduler:id/log_email_input']}
+11:36:28.821  INFO  manager.MyListener - We have a problem -->org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'KDFX-PC', ip: '172.16.0.178', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: Appium, databaseEnabled: false, desired: {appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: Appium, deviceName: Simulator_2, platformName: android, platformVersion: 8.0}, deviceApiLevel: 26, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 560, deviceScreenSize: 1440x2560, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3.5, platform: LINUX, platformName: Android, platformVersion: 8.0.0, statBarHeight: 84, takesScreenshot: true, viewportRect: {height: 2308, left: 0, top: 84, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: d1eca100-1b20-4257-addc-eba9df50125a
+*** Element info: {Using=xpath, value=//*[resource-id='com.example.svetlana.scheduler:id/log_email_input']}
+11:36:29.390  INFO  manager.MyListener - After find by --> By.xpath: //*[resource-id='com.example.svetlana.scheduler:id/log_email_input']
+11:36:29.898  INFO  manager.MyListener - Before find by --> By.xpath: //*[resource-id='com.example.svetlana.scheduler:id/log_email_input']
+11:36:30.025  INFO  manager.MyListener - We have a problem -->An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'KDFX-PC', ip: '172.16.0.178', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: Appium, databaseEnabled: false, desired: {appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: Appium, deviceName: Simulator_2, platformName: android, platformVersion: 8.0}, deviceApiLevel: 26, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 560, deviceScreenSize: 1440x2560, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3.5, platform: LINUX, platformName: Android, platformVersion: 8.0.0, statBarHeight: 84, takesScreenshot: true, viewportRect: {height: 2308, left: 0, top: 84, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: d1eca100-1b20-4257-addc-eba9df50125a
+*** Element info: {Using=xpath, value=//*[resource-id='com.example.svetlana.scheduler:id/log_email_input']}
+11:36:30.025  INFO  manager.MyListener - We have a problem -->org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'KDFX-PC', ip: '172.16.0.178', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: Appium, databaseEnabled: false, desired: {appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: Appium, deviceName: Simulator_2, platformName: android, platformVersion: 8.0}, deviceApiLevel: 26, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 560, deviceScreenSize: 1440x2560, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3.5, platform: LINUX, platformName: Android, platformVersion: 8.0.0, statBarHeight: 84, takesScreenshot: true, viewportRect: {height: 2308, left: 0, top: 84, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: d1eca100-1b20-4257-addc-eba9df50125a
+*** Element info: {Using=xpath, value=//*[resource-id='com.example.svetlana.scheduler:id/log_email_input']}
+11:36:30.590  INFO  manager.MyListener - After find by --> By.xpath: //*[resource-id='com.example.svetlana.scheduler:id/log_email_input']
+11:36:31.113  INFO  manager.MyListener - Before find by --> By.xpath: //*[resource-id='com.example.svetlana.scheduler:id/log_email_input']
+11:36:31.223  INFO  manager.MyListener - We have a problem -->An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'KDFX-PC', ip: '172.16.0.178', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: Appium, databaseEnabled: false, desired: {appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: Appium, deviceName: Simulator_2, platformName: android, platformVersion: 8.0}, deviceApiLevel: 26, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 560, deviceScreenSize: 1440x2560, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3.5, platform: LINUX, platformName: Android, platformVersion: 8.0.0, statBarHeight: 84, takesScreenshot: true, viewportRect: {height: 2308, left: 0, top: 84, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: d1eca100-1b20-4257-addc-eba9df50125a
+*** Element info: {Using=xpath, value=//*[resource-id='com.example.svetlana.scheduler:id/log_email_input']}
+11:36:31.224  INFO  manager.MyListener - We have a problem -->org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'KDFX-PC', ip: '172.16.0.178', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: Appium, databaseEnabled: false, desired: {appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: Appium, deviceName: Simulator_2, platformName: android, platformVersion: 8.0}, deviceApiLevel: 26, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 560, deviceScreenSize: 1440x2560, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3.5, platform: LINUX, platformName: Android, platformVersion: 8.0.0, statBarHeight: 84, takesScreenshot: true, viewportRect: {height: 2308, left: 0, top: 84, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: d1eca100-1b20-4257-addc-eba9df50125a
+*** Element info: {Using=xpath, value=//*[resource-id='com.example.svetlana.scheduler:id/log_email_input']}
+11:36:31.754  INFO  manager.MyListener - After find by --> By.xpath: //*[resource-id='com.example.svetlana.scheduler:id/log_email_input']
+11:36:32.261  INFO  manager.MyListener - Before find by --> By.xpath: //*[resource-id='com.example.svetlana.scheduler:id/log_email_input']
+11:36:32.949  INFO  manager.MyListener - We have a problem -->An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'KDFX-PC', ip: '172.16.0.178', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: Appium, databaseEnabled: false, desired: {appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: Appium, deviceName: Simulator_2, platformName: android, platformVersion: 8.0}, deviceApiLevel: 26, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 560, deviceScreenSize: 1440x2560, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3.5, platform: LINUX, platformName: Android, platformVersion: 8.0.0, statBarHeight: 84, takesScreenshot: true, viewportRect: {height: 2308, left: 0, top: 84, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: d1eca100-1b20-4257-addc-eba9df50125a
+*** Element info: {Using=xpath, value=//*[resource-id='com.example.svetlana.scheduler:id/log_email_input']}
+11:36:32.950  INFO  manager.MyListener - We have a problem -->org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'KDFX-PC', ip: '172.16.0.178', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: Appium, databaseEnabled: false, desired: {appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: Appium, deviceName: Simulator_2, platformName: android, platformVersion: 8.0}, deviceApiLevel: 26, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 560, deviceScreenSize: 1440x2560, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3.5, platform: LINUX, platformName: Android, platformVersion: 8.0.0, statBarHeight: 84, takesScreenshot: true, viewportRect: {height: 2308, left: 0, top: 84, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: d1eca100-1b20-4257-addc-eba9df50125a
+*** Element info: {Using=xpath, value=//*[resource-id='com.example.svetlana.scheduler:id/log_email_input']}
+11:36:35.417  INFO  manager.MyListener - After find by --> By.xpath: //*[resource-id='com.example.svetlana.scheduler:id/log_email_input']
+11:36:35.948  INFO  manager.MyListener - Before find by --> By.xpath: //*[resource-id='com.example.svetlana.scheduler:id/log_email_input']
+11:36:36.086  INFO  manager.MyListener - We have a problem -->An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'KDFX-PC', ip: '172.16.0.178', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: Appium, databaseEnabled: false, desired: {appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: Appium, deviceName: Simulator_2, platformName: android, platformVersion: 8.0}, deviceApiLevel: 26, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 560, deviceScreenSize: 1440x2560, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3.5, platform: LINUX, platformName: Android, platformVersion: 8.0.0, statBarHeight: 84, takesScreenshot: true, viewportRect: {height: 2308, left: 0, top: 84, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: d1eca100-1b20-4257-addc-eba9df50125a
+*** Element info: {Using=xpath, value=//*[resource-id='com.example.svetlana.scheduler:id/log_email_input']}
+11:36:36.087  INFO  manager.MyListener - We have a problem -->org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'KDFX-PC', ip: '172.16.0.178', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: Appium, databaseEnabled: false, desired: {appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: Appium, deviceName: Simulator_2, platformName: android, platformVersion: 8.0}, deviceApiLevel: 26, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 560, deviceScreenSize: 1440x2560, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3.5, platform: LINUX, platformName: Android, platformVersion: 8.0.0, statBarHeight: 84, takesScreenshot: true, viewportRect: {height: 2308, left: 0, top: 84, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: d1eca100-1b20-4257-addc-eba9df50125a
+*** Element info: {Using=xpath, value=//*[resource-id='com.example.svetlana.scheduler:id/log_email_input']}
+11:36:38.617  INFO  manager.MyListener - After find by --> By.xpath: //*[resource-id='com.example.svetlana.scheduler:id/log_email_input']
+11:36:39.141  INFO  manager.MyListener - Before find by --> By.xpath: //*[resource-id='com.example.svetlana.scheduler:id/log_email_input']
+11:36:39.292  INFO  manager.MyListener - We have a problem -->An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'KDFX-PC', ip: '172.16.0.178', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: Appium, databaseEnabled: false, desired: {appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: Appium, deviceName: Simulator_2, platformName: android, platformVersion: 8.0}, deviceApiLevel: 26, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 560, deviceScreenSize: 1440x2560, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3.5, platform: LINUX, platformName: Android, platformVersion: 8.0.0, statBarHeight: 84, takesScreenshot: true, viewportRect: {height: 2308, left: 0, top: 84, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: d1eca100-1b20-4257-addc-eba9df50125a
+*** Element info: {Using=xpath, value=//*[resource-id='com.example.svetlana.scheduler:id/log_email_input']}
+11:36:39.292  INFO  manager.MyListener - We have a problem -->org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'KDFX-PC', ip: '172.16.0.178', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: Appium, databaseEnabled: false, desired: {appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: Appium, deviceName: Simulator_2, platformName: android, platformVersion: 8.0}, deviceApiLevel: 26, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 560, deviceScreenSize: 1440x2560, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3.5, platform: LINUX, platformName: Android, platformVersion: 8.0.0, statBarHeight: 84, takesScreenshot: true, viewportRect: {height: 2308, left: 0, top: 84, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: d1eca100-1b20-4257-addc-eba9df50125a
+*** Element info: {Using=xpath, value=//*[resource-id='com.example.svetlana.scheduler:id/log_email_input']}
+11:36:41.825  INFO  manager.MyListener - After find by --> By.xpath: //*[resource-id='com.example.svetlana.scheduler:id/log_email_input']
+11:36:42.356  INFO  manager.MyListener - Before find by --> By.xpath: //*[resource-id='com.example.svetlana.scheduler:id/log_email_input']
+11:36:42.431  INFO  manager.MyListener - We have a problem -->An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'KDFX-PC', ip: '172.16.0.178', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: Appium, databaseEnabled: false, desired: {appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: Appium, deviceName: Simulator_2, platformName: android, platformVersion: 8.0}, deviceApiLevel: 26, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 560, deviceScreenSize: 1440x2560, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3.5, platform: LINUX, platformName: Android, platformVersion: 8.0.0, statBarHeight: 84, takesScreenshot: true, viewportRect: {height: 2308, left: 0, top: 84, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: d1eca100-1b20-4257-addc-eba9df50125a
+*** Element info: {Using=xpath, value=//*[resource-id='com.example.svetlana.scheduler:id/log_email_input']}
+11:36:42.431  INFO  manager.MyListener - We have a problem -->org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '4.0.0-alpha-1', revision: 'd1d3728cae', time: '2019-04-24T13:42:21'
+System info: host: 'KDFX-PC', ip: '172.16.0.178', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: io.appium.java_client.AppiumDriver
+Capabilities {appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: Appium, databaseEnabled: false, desired: {appActivity: .presentation.splashScreen...., appPackage: com.example.svetlana.scheduler, automationName: Appium, deviceName: Simulator_2, platformName: android, platformVersion: 8.0}, deviceApiLevel: 26, deviceManufacturer: Google, deviceModel: Android SDK built for x86, deviceName: emulator-5554, deviceScreenDensity: 560, deviceScreenSize: 1440x2560, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 3.5, platform: LINUX, platformName: Android, platformVersion: 8.0.0, statBarHeight: 84, takesScreenshot: true, viewportRect: {height: 2308, left: 0, top: 84, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: d1eca100-1b20-4257-addc-eba9df50125a
+*** Element info: {Using=xpath, value=//*[resource-id='com.example.svetlana.scheduler:id/log_email_input']}
+11:36:44.813  INFO  manager.MyListener - After find by --> By.xpath: //*[resource-id='com.example.svetlana.scheduler:id/log_email_input']
