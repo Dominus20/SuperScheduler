@@ -51,6 +51,20 @@ public class CreateNewEventTests extends Configuration {
                 .isPlusButtonPresentAssert();
     }
 
+    @Test
+    public void addNewEventNextDay(){
+        new HomeScreen(driver)
+                .initCreationEvent()
+                .actionDataNextDay()
+                .createNewEvent(Event.builder()
+                        .title("Event Next")
+                        .type("next day")
+                        .brakes(2)
+                        .wage(22)
+                        .build())
+                .isPlusButtonPresentAssert();
+    }
+
     @AfterClass
     public void postcondition(){  //logout
         new HomeScreen(driver)
