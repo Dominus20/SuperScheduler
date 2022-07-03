@@ -25,9 +25,9 @@ public class CreateNewEventTests extends Configuration {
 
         Event event = Event.builder()
                 .title("new Event")
-                .type("type")
-                .brakes(3)
-                .wage(30)
+                .type("new Type")
+                .brakes(2)
+                .wage(50)
                 .build();
 
       boolean isPlusPresent = new HomeScreen(driver)
@@ -45,25 +45,26 @@ public class CreateNewEventTests extends Configuration {
                 .createNewEvent(Event.builder()
                         .title("EventSecond")
                         .type("party")
-                        .brakes(2)
-                        .wage(10)
+                        .brakes(3)
+                        .wage(80)
                         .build())
                 .isPlusButtonPresentAssert();
     }
 
-//    @Test
-//    public void addNewEventNextDay(){
-//        new HomeScreen(driver)
-//                .initCreationEvent()
-//                .actionDataNextDay()
-//                .createNewEvent(Event.builder()
-//                        .title("Event Next")
-//                        .type("next day")
-//                        .brakes(2)
-//                        .wage(22)
-//                        .build())
-//                .isPlusButtonPresentAssert();
-//    }
+    @Test
+    public void addNewEventNextDay(){
+
+        new HomeScreen(driver)
+                .initCreationEvent()
+                .actionDataNextDay()
+                .createNewEvent(Event.builder()
+                        .title("Event Next")
+                        .type("next day")
+                        .brakes(3)
+                        .wage(40)
+                        .build())
+                .isPlusButtonPresentAssert();
+    }
 
     @AfterClass
     public void postcondition(){  //logout

@@ -10,7 +10,7 @@ import org.openqa.selenium.Rectangle;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import screens.BaseScreen;
+
 
 import java.util.List;
 
@@ -39,31 +39,42 @@ public class EditCreateEventScreen extends BaseScreen {
 
     @FindBy(xpath = "//*[@resource-id='com.example.svetlana.scheduler:id/info_save_btn']")
     MobileElement saveBtn;
-    @FindBy(xpath = "//*[@resourse-id='com.example.svetlana.scheduler:id/row_day_number_txt']")
+
+    @FindBy(xpath = "//*[@resource-id='com.example.svetlana.scheduler:id/row_day_number_txt']")
     List<MobileElement> days;
 
+    @FindBy(xpath = "//*[@resource-id='com.example.svetlana.scheduler:id/delete_menu']")
+    MobileElement deleteBtn;
 
-//    public EditCreateEventScreen actionDataNextDay(){
-//        pause(2000);
-//
-//        MobileElement element = days.get(2);
-//        Rectangle rect = element.getRect();
-//        int height = rect.getHeight();
-//        int yDay =rect.getY();
-//
-//        Dimension size= driver.manage().window().getSize();
-//
-//        int xFrom = rect.getX() + rect.getWidth();
-//        int xTo = size.getWidth()/2;
-//        int y = yDay + height/2;
-//
-//        TouchAction<?> action = new TouchAction<>(driver);
-//        action.longPress(PointOption.point(xFrom, y))
-//                .moveTo(PointOption.point(xTo,y))
-//                .release()
-//                .perform();
-//        return this;
-//    }
+    public HomeScreen deleteEvent(){
+        new WebDriverWait(driver,10)
+                .until(ExpectedConditions.visibilityOf(deleteBtn));
+        deleteBtn.click();
+        return new HomeScreen(driver);
+    }
+
+
+    public EditCreateEventScreen actionDataNextDay(){
+        pause(2000);
+
+        MobileElement element = days.get(2);
+        Rectangle rect = element.getRect();
+        int height = rect.getHeight();
+        int yDay = rect.getY();
+
+        Dimension size= driver.manage().window().getSize();
+
+        int xFrom = rect.getX() + rect.getWidth();
+        int xTo = size.getWidth()/2;
+        int y = yDay + height/2;
+
+        TouchAction<?> action = new TouchAction<>(driver);
+        action.longPress(PointOption.point(xFrom, y))
+                .moveTo(PointOption.point(xTo,y))
+                .release()
+                .perform();
+        return this;
+    }
 
     public HomeScreen createNewEvent(Event event){
         new WebDriverWait(driver,10)
@@ -87,7 +98,4 @@ public class EditCreateEventScreen extends BaseScreen {
         return new HomeScreen(driver);
 
     }
-
-
-
 }

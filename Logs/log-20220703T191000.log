@@ -1,0 +1,38 @@
+19:10:00.444  DEBUG org.testng.internal.Graph - [Graph] ADDING NODE Configuration.setUp()[pri:0, instance:null] -1380824345
+19:10:00.449  DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+19:10:00.452  DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+19:10:00.453  DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+19:10:00.453  DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+19:10:00.454  DEBUG org.testng.internal.Graph - [Graph] ADDING NODE Configuration.tearDown()[pri:0, instance:null] 939304592
+19:10:00.454  DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+19:10:00.454  DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+19:10:00.701  DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+19:10:00.701  DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+19:10:00.702  DEBUG org.testng.internal.Graph - [Graph] ADDING NODE CreateNewEventTests.precondition()[pri:0, instance:null] 573490085
+19:10:00.703  DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+19:10:00.703  DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+19:10:00.703  DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+19:10:00.703  DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+19:10:00.704  DEBUG org.testng.internal.Graph - [Graph] ADDING NODE CreateNewEventTests.postcondition()[pri:0, instance:null] -350533052
+19:10:00.704  DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+19:10:00.704  DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+19:10:00.705  DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+19:10:00.705  DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+19:10:00.711  DEBUG org.testng.internal.Graph - [Graph] ADDING NODE Configuration.setUp()[pri:0, instance:tests.CreateNewEventTests@150fcf47] 497475904
+19:10:00.711  DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+19:10:00.711  DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+19:10:00.712  DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+19:10:00.712  DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+19:10:00.713  DEBUG org.testng.internal.Graph - [Graph] ADDING NODE CreateNewEventTests.addNewSuccessSecond()[pri:0, instance:tests.CreateNewEventTests@150fcf47] 274140866
+19:10:00.714  DEBUG org.testng.internal.Graph - [Graph] ADDING NODE CreateNewEventTests.addNewEventNextDay()[pri:0, instance:tests.CreateNewEventTests@150fcf47] 876395576
+19:10:00.714  DEBUG org.testng.internal.Graph - [Graph] ADDING NODE CreateNewEventTests.addNewEventSuccess()[pri:0, instance:tests.CreateNewEventTests@150fcf47] -328781550
+19:10:00.714  DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+19:10:00.715  DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+19:10:00.716  DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+19:10:00.716  DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+19:10:00.718  DEBUG org.testng.internal.Graph - [Graph] ADDING NODE Configuration.tearDown()[pri:0, instance:tests.CreateNewEventTests@150fcf47] -592971081
+19:10:00.718  DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+19:10:00.719  DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+19:10:00.719  DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+19:10:00.724  DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+19:10:00.745  INFO  manager.Configuration - Device name --> 'Simulator_2'; Platform --> 'Android'; Version --> '8.0'
