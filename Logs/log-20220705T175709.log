@@ -1,0 +1,29 @@
+17:57:09.878  DEBUG org.testng.internal.Graph - [Graph] ADDING NODE Configuration.setUp()[pri:0, instance:null] -1380824345
+17:57:09.884  DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+17:57:09.888  DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+17:57:09.888  DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+17:57:09.888  DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+17:57:09.889  DEBUG org.testng.internal.Graph - [Graph] ADDING NODE Configuration.tearDown()[pri:0, instance:null] 939304592
+17:57:09.890  DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+17:57:09.890  DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+17:57:09.891  DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+17:57:09.891  DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+17:57:09.897  DEBUG org.testng.internal.Graph - [Graph] ADDING NODE Configuration.setUp()[pri:0, instance:tests.LoginTests@38eab269] 1099023458
+17:57:09.897  DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+17:57:09.898  DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+17:57:09.898  DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+17:57:09.898  DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+17:57:09.900  DEBUG org.testng.internal.Graph - [Graph] ADDING NODE LoginTests.loginSuccess()[pri:0, instance:tests.LoginTests@38eab269] 1853940715
+17:57:09.900  DEBUG org.testng.internal.Graph - [Graph] ADDING NODE LoginTests.loginSuccessCSV(models.User)[pri:0, instance:tests.LoginTests@38eab269] 1956527681
+17:57:09.901  DEBUG org.testng.internal.Graph - [Graph] ADDING NODE LoginTests.loginSuccessDP(models.User)[pri:0, instance:tests.LoginTests@38eab269] 2054622823
+17:57:09.901  DEBUG org.testng.internal.Graph - [Graph] ADDING NODE LoginTests.loginSuccessSecond()[pri:0, instance:tests.LoginTests@38eab269] -571766689
+17:57:09.901  DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+17:57:09.902  DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+17:57:09.902  DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+17:57:09.903  DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+17:57:09.904  DEBUG org.testng.internal.Graph - [Graph] ADDING NODE Configuration.tearDown()[pri:0, instance:tests.LoginTests@38eab269] 8576473
+17:57:09.905  DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+17:57:09.905  DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+17:57:09.905  DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+17:57:09.905  DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+17:57:09.927  INFO  manager.Configuration - Device name --> 'Simulator_2'; Platform --> 'Android'; Version --> '8.0'

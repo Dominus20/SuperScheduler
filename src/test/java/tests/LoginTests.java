@@ -44,7 +44,18 @@ public class LoginTests extends Configuration {
                 .logout();
 
     }
+    @Test(dataProvider = "loginDataCSV", dataProviderClass = MyDataProvider.class)
+    public void loginSuccessCSV(User user){
 
+        logger.info("Test start with user---> " + user.toString());
+
+        new LoginScreen(driver)
+                .complexLogin(user)
+                .isPlusButtonPresentAssert()
+                .openMenu()
+                .logout();
+
+    }
 
 
 
